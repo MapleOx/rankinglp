@@ -2,7 +2,7 @@
 This repository contains the code for the paper "Improved Analysis of RANKING for Online Vertex-Weighted Bipartite Matching".
 
 ## Usage
-
+Warning: With the values of the parameters below, the code may take a long time to run. You can replace them with smaller numbers to experiment.
 1. Run the code in `lp.ipynb` to generate the file `g_values_50.txt`, which contains the values of g on a 50x50 discretized grid. 
 2. Run the command `python fill_g_table_parallel.py 16834` to compute a 16384x16384 table `g_table_16384.txt` with the values of g on the finer discretized grid.
 3. Run the command `python fill_ss_table_parallel.py 16834 1024` to compute a 1024x1024x1024 table `ss_table_1024.npy` with the values of the inner minimum. 
