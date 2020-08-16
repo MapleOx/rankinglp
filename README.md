@@ -1,5 +1,5 @@
 # Improved Analysis of RANKING for Online Vertex-Weighted Bipartite Matching
-This repository contains the code for the paper "Improved Analysis of RANKING for Online Vertex-Weighted Bipartite Matching".
+This repository contains the code for the paper "Improved Analysis of RANKING for Online Vertex-Weighted Bipartite Matching". (https://arxiv.org/abs/2007.12823)
 
 ## Usage
 Warning: With the values of the parameters below, the code may take a long time to run. You can replace them with smaller numbers to experiment.
